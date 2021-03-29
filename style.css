@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: orange;
+  height: 120px;
+}
+header h1 {
+  color: white;
+  text-align: center;
+  line-height: 120px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+nav {
+  background-color: green;
+}
+
+main {
+  font-size: 0;
+}
+article, aside {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+}
+article {
+  background-color: goldenrod;
+  width: 70%;
+}
+aside {
+  padding-top: 20px;
+  padding-left: 10px;
+  width: 30%;
+  position: sticky;
+  top: 0;
+}
+footer {
+  background-color: steelblue;
+  height: 50px;
+}
+aside a {
+  display: block;
+}
